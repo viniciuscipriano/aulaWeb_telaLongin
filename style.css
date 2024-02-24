@@ -1,10 +1,72 @@
 body {
-    background-color: rgb(233, 231, 231);
+    background-color: rgb(164, 165, 125);
+    background-image: url("img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container {
+#titleLogin {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+#cimabaixo {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    margin-bottom: 30px;
+    border-color: black;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    width: 250px;
+}
+
+#senha {
+    margin-bottom: 45px;
+    border-color: black;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    width: 250px;
+}
+
+#botao {
+    margin-bottom: 10px;
+    height: 5vh;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+
+
+.mover{
+    display: flex;
+    float: right;
+}
+
+#principal {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 85vh;
+    padding-bottom: 5px;
 }
 
+#container {
+    font-family: 'Muli',sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    border-color: rgb(122, 120, 120);
+    border-radius: 15px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+    padding-left: 45px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 212, 212, 0.2);
+}

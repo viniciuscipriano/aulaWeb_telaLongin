@@ -6,19 +6,23 @@
     <title>Tela login</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
-    <a href="https://supreme-engine-wp5pjxqw7vq29696-5500.app.github.dev/"></a>
+</head>
 <body>
-    <!-- <header>Tela login</header> -->
     <main id="principal">
-        <form class="container">
-            <div>
-                <label for="email">Email</label>
-                <input id="email" type="email" name="email" autocomplete="off" placeholder="Digite seu Email" required>
+        <form id="container" onsubmit="return botaoLogar()">
+            <h1 id="titleLogin">Tela Login</h1>
+            <div id="cimabaixo">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" autocomplete="off" required>
 
-                <label for="senha">Senha</label>
-                <input id="senha" type="password" placeholder="Digite sua senha" required>
+                <label for="senha">Senha:</label>
+                <input id="senha" type="password" required>
 
-                <button id="botao" type="submit" onchange="botaoLogar()">Logar</button>
+                <button id="botao" type="submit">Login</button>
+                <div class="mover">
+                <small>Não tem uma conta?</small>
+                <b>Registrar</b>
+                </div>
             </div>
         </form>
     </main>
