@@ -23,7 +23,7 @@ body {
     border-right: 0;
     border-top: 0;
     background-color: transparent;
-    width: 250px;
+    width: 280px;
 }
 
 #senha {
@@ -33,22 +33,38 @@ body {
     border-right: 0;
     border-top: 0;
     background-color: transparent;
-    width: 250px;
+    width: 280px;
+}
+
+checkboxx{
+    display: flex;
+    float: right;
+    font-size: 50px;
+}
+
+#esqueciSenha {
+    font-size: 14.5px;
+    margin-left: 65px;
 }
 
 #botao {
-    margin-bottom: 10px;
-    height: 5vh;
-    border-radius: 20px;
+    margin-bottom: 18px;
+    margin-top: 12px;
+    height: 6vh;
+    border-radius: 40px;
     border-color: transparent;
     font-size: 18px;
 }
 
-
+b{
+    font-size: 13px;
+    margin-left: 7px;
+}
 
 .mover{
     display: flex;
     float: right;
+    justify-content: center;
 }
 
 #principal {
