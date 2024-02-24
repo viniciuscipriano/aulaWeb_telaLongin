@@ -10,7 +10,7 @@
 <body>
     <main id="principal">
         <form id="container" onsubmit="return botaoLogar()">
-            <h1 id="titleLogin">Tela Login</h1>
+            <h1 id="titleLogin">Faça Login</h1>
             <div id="cimabaixo">
                 <label for="email">Email:</label>
                 <input id="email" type="email" name="email" autocomplete="off" required>
@@ -19,15 +19,15 @@
                 <input id="senha" type="password" required>
 
                 <div id="checkboxx">
-                <input id="checkbox" type="checkbox">
+                <input id="checkbox" type="checkbox" checked>
                 <label for="checkbox">Lembre-me</label>
-                <small id="esqueciSenha">Esqueci a senha</small>
+                <a href="#" id="esqueciSenha">Esqueci a senha</a>
                 </div>
 
                 <button id="botao" type="submit">Login</button>
                 <div class="mover">
                 <small>Não tem uma conta?</small>
-                <b>Registrar</b>
+                <a href="#" id="registrar" >Registrar</a>
                 </div>
             </div>
         </form>

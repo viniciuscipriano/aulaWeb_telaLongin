@@ -7,6 +7,8 @@ function botaoLogar() {
     
     if (email === correto_email && senha === correta_senha) {
         window.location.replace("logado.html");
+    } else{
+        alert("Credenciais inválidas. Verifique seu email e senha e tente novamente.");
     }
 
     return false;
